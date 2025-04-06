@@ -11,14 +11,14 @@ function getAbsolutePath(value: string){
 }
 const config: StorybookConfig = {
   "stories": [
-    "../src/stories/**/*.stories.mdx",
+    "../src/pages/**/*.mdx",
     "../src/stories/**/*.stories.tsx"
   ],
   "addons": [
     {
       "name": getAbsolutePath('@storybook/addon-essentials'),
       "options": {
-        "docs": false
+        "docs": true
       }
     },
     getAbsolutePath('@storybook/addon-onboarding'),
