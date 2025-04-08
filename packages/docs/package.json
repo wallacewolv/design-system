@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "storybook dev -p 6006",
+    "build-vite": "tsc && vite build",
     "build": "storybook build",
-    "lint": "eslint src/**/*.ts* --fix"
+    "lint": "eslint src/**/*.ts* --fix",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
@@ -29,6 +31,7 @@
     "@storybook/builder-vite": "0.2.3",
     "@storybook/react": "^8.6.12",
     "@storybook/react-vite": "^8.6.12",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^8.6.12",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
