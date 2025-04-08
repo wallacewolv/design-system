@@ -8,6 +8,7 @@
     "build-vite": "tsc && vite build",
     "build": "storybook build",
     "lint": "eslint src/**/*.ts* --fix",
+    "build-storybook": "storybook build",
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
