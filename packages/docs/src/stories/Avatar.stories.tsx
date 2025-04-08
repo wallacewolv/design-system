@@ -10,6 +10,13 @@ export default {
     src: 'https://github.com/wallacewolv.png',
     alt: 'Wallace Wesley',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text'
+      }
+    }
+  }
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

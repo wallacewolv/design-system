@@ -842,7 +842,7 @@ interface BoxProps extends ComponentProps<typeof Box> {
 }
 
 declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h2", {
-    size?: "sm" | "md" | "lg" | "2xlg" | "3xlg" | "4xlg" | "5xlg" | "6xlg" | undefined;
+    size?: "sm" | "md" | "lg" | "2xl" | "4xl" | "5xl" | "6xl" | "3xl" | undefined;
 }, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
         white: string;
